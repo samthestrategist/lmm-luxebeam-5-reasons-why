@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: '/${PRODUCT_REPO}/',
+  base: '/lmm-luxebeam-5-reasons-why/',
   plugins: [react()],
   resolve: {
     alias: {
