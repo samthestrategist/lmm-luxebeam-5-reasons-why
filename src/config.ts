@@ -1,88 +1,73 @@
-// ============================================================
-// LMM GOLDEN TEMPLATE CONFIG — ADVERTORIAL
-// DO NOT EDIT — populated by content-inject.py and image-inject.py
-// Keys map to {{PLACEHOLDER}} tokens replaced by build scripts
-// ============================================================
+// LuxeBeam™ 5 Reasons Why Advertorial
+export const PRODUCT_NAME = "LuxeBeam™";
+export const BRAND_NAME = "Little Miss Mineral";
+export const MECHANISM = "Deep-Cell Light Activation™";
+export const CDN_HERO_FRONT = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/PAGE1_RANK1_HERO_dea4a0a5-aac9-4a12-9a22-d5c6949b66fb.png?v=1772560278";
+export const CDN_HERO_ANGLE = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/PAGE2_HERO_8976102f-4e10-4eea-9547-1c4f4df4faeb.png?v=1772560279";
+export const CDN_LIFESTYLE_1 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/PAGE2_LIFESTYLE_b9822004-09ad-4626-a2d7-0fd801e14ecc.png?v=1772560278";
+export const CDN_TEXTURE_1 = "https://cdn.shopify.com/s/files/1/0462/8591/4267/files/PAGE2_MECHANISM_136ae496-e097-4803-9ec3-b9fca641d3d8.png?v=1772560279";
 
-// Product identity
-export const COPY_PRODUCT_NAME = "{{COPY_PRODUCT_NAME}}";
-export const BRAND_NAME = "{{BRAND_NAME}}";
+export const META_TITLE = "5 Reasons Why Dermatologists Are Calling LuxeBeam™ the Smartest Anti-Aging Investment of 2026";
+export const META_DESC = "Women over 40 are ditching expensive serums for this $249 LED face mask. Here's why dermatologists say it works at a level no cream can reach.";
 
-// PDP URL (injected after PDP build deploys)
-export const PDP_URL = "{{PDP_URL}}";
+export const CHECKOUT_URL = "https://orthocliner.myshopify.com/cart/48083744260251:1?discount=SECRET25";
 
-// CDN Image slots (injected by image-inject.py from cdn_slots.json)
-export const CDN_HERO_FRONT = "{{CDN_HERO_FRONT}}";
-export const CDN_HERO_ANGLE = "{{CDN_HERO_ANGLE}}";
-export const CDN_LIFESTYLE_1 = "{{CDN_LIFESTYLE_1}}";
-export const CDN_TEXTURE_1 = "{{CDN_TEXTURE_1}}";
-export const CDN_BUNDLE_3 = "{{CDN_BUNDLE_3}}";
-export const CDN_AD_OVERLAY = "{{CDN_AD_OVERLAY}}";
-export const CDN_BRAND_LOGO = "{{CDN_BRAND_LOGO}}";
-export const CDN_INGREDIENT_1 = "{{CDN_INGREDIENT_1}}";
-export const CDN_INGREDIENT_2 = "{{CDN_INGREDIENT_2}}";
-export const CDN_LIFESTYLE_2 = "{{CDN_LIFESTYLE_2}}";
-export const CDN_BUNDLE_1 = "{{CDN_BUNDLE_1}}";
+export const REASONS = [
+  {
+    heading: "Reason #1: It Targets Fine Lines Where They Actually Start (Not Where Creams Can Reach)",
+    body: `Fine lines don't form on the surface of your skin. They form underneath it — in the dermis, where collagen fibers are breaking down faster than your body can replace them.
 
-// ---- ADVERTORIAL COPY ----
-export const ADV_META_TITLE = "{{ADV_META_TITLE}}";
-export const ADV_META_DESC = "{{ADV_META_DESC}}";
-export const ADV_PUBLICATION_NAME = "{{ADV_PUBLICATION_NAME}}";
-export const ADV_DATE = "{{ADV_DATE}}";
-export const ADV_H1 = "{{ADV_H1}}";
-export const ADV_SUBHEAD = "{{ADV_SUBHEAD}}";
-export const ADV_STORY_P1 = "{{ADV_STORY_P1}}";
-export const ADV_STORY_P2 = "{{ADV_STORY_P2}}";
-export const ADV_STORY_P3 = "{{ADV_STORY_P3}}";
-export const ADV_STORY_P4 = "{{ADV_STORY_P4}}";
-export const ADV_P2_HEADLINE = "{{ADV_P2_HEADLINE}}";
-export const ADV_P2_BODY = "{{ADV_P2_BODY}}";
-export const ADV_P3_HEADLINE = "{{ADV_P3_HEADLINE}}";
-export const ADV_MECHANISM_BODY = "{{ADV_MECHANISM_BODY}}";
-export const ADV_PRODUCT_REVEAL_HEADLINE = "{{ADV_PRODUCT_REVEAL_HEADLINE}}";
-export const ADV_PRODUCT_REVEAL_BODY = "{{ADV_PRODUCT_REVEAL_BODY}}";
-export const ADV_RESULT_1 = "{{ADV_RESULT_1}}";
-export const ADV_RESULT_2 = "{{ADV_RESULT_2}}";
-export const ADV_RESULT_3 = "{{ADV_RESULT_3}}";
-export const ADV_TESTIMONIAL_1_QUOTE = "{{ADV_TESTIMONIAL_1_QUOTE}}";
-export const ADV_TESTIMONIAL_1_ATTR = "{{ADV_TESTIMONIAL_1_ATTR}}";
-export const ADV_TESTIMONIAL_2_QUOTE = "{{ADV_TESTIMONIAL_2_QUOTE}}";
-export const ADV_TESTIMONIAL_2_ATTR = "{{ADV_TESTIMONIAL_2_ATTR}}";
-export const ADV_MID_CTA_HEADLINE = "{{ADV_MID_CTA_HEADLINE}}";
-export const ADV_MID_CTA_BODY = "{{ADV_MID_CTA_BODY}}";
-export const ADV_MID_CTA_BUTTON = "{{ADV_MID_CTA_BUTTON}}";
-export const ADV_DISCLAIMER = "{{ADV_DISCLAIMER}}";
+After age 30, collagen production drops roughly 1-1.5% per year. By 45, you've lost 15-25% of your skin's structural support. That's why lines deepen even when your skincare routine is flawless.
 
-// Extended copy slots (mapped from existing advertorial structure)
-export const ADV_OPENING_SCENE = "{{ADV_OPENING_SCENE}}";
-export const ADV_MECHANISM_NAME = "{{ADV_MECHANISM_NAME}}";
-export const ADV_P2_BODY_2 = "{{ADV_P2_BODY_2}}";
-export const ADV_P2_BODY_3 = "{{ADV_P2_BODY_3}}";
-export const ADV_P2_BODY_4 = "{{ADV_P2_BODY_4}}";
-export const ADV_P2_BODY_5 = "{{ADV_P2_BODY_5}}";
-export const ADV_P2_BODY_CLOSE = "{{ADV_P2_BODY_CLOSE}}";
-export const ADV_P3_BODY_2 = "{{ADV_P3_BODY_2}}";
-export const ADV_P3_BODY_3 = "{{ADV_P3_BODY_3}}";
-export const ADV_P3_BODY_4 = "{{ADV_P3_BODY_4}}";
-export const ADV_P3_BODY_5 = "{{ADV_P3_BODY_5}}";
-export const ADV_ACTION_1_TITLE = "{{ADV_ACTION_1_TITLE}}";
-export const ADV_ACTION_1_BODY = "{{ADV_ACTION_1_BODY}}";
-export const ADV_ACTION_2_TITLE = "{{ADV_ACTION_2_TITLE}}";
-export const ADV_ACTION_2_BODY = "{{ADV_ACTION_2_BODY}}";
-export const ADV_ACTION_3_TITLE = "{{ADV_ACTION_3_TITLE}}";
-export const ADV_ACTION_3_BODY = "{{ADV_ACTION_3_BODY}}";
-export const ADV_SOCIAL_PROOF_INTRO = "{{ADV_SOCIAL_PROOF_INTRO}}";
-export const ADV_BUNDLE_1_NAME = "{{ADV_BUNDLE_1_NAME}}";
-export const ADV_BUNDLE_1_PRICE = "{{ADV_BUNDLE_1_PRICE}}";
-export const ADV_BUNDLE_1_COMPARE = "{{ADV_BUNDLE_1_COMPARE}}";
-export const ADV_BUNDLE_2_NAME = "{{ADV_BUNDLE_2_NAME}}";
-export const ADV_BUNDLE_2_PRICE = "{{ADV_BUNDLE_2_PRICE}}";
-export const ADV_BUNDLE_2_COMPARE = "{{ADV_BUNDLE_2_COMPARE}}";
-export const ADV_BUNDLE_3_NAME = "{{ADV_BUNDLE_3_NAME}}";
-export const ADV_BUNDLE_3_PRICE = "{{ADV_BUNDLE_3_PRICE}}";
-export const ADV_BUNDLE_3_COMPARE = "{{ADV_BUNDLE_3_COMPARE}}";
-export const ADV_GUARANTEE_DAYS = "{{ADV_GUARANTEE_DAYS}}";
-export const ADV_URGENCY_HEADLINE = "{{ADV_URGENCY_HEADLINE}}";
-export const ADV_URGENCY_BODY = "{{ADV_URGENCY_BODY}}";
-export const ADV_FOOTER_PUBLICATION = "{{ADV_FOOTER_PUBLICATION}}";
-export const ADV_FOOTER_DISCLAIMER_2 = "{{ADV_FOOTER_DISCLAIMER_2}}";
+Red light therapy at clinically matched wavelengths (630-660nm) reaches the fibroblast cells that produce collagen. It stimulates an enzyme called cytochrome c oxidase inside their mitochondria, boosting ATP — cellular energy — by up to 200%.
+
+A controlled study published in Photomedicine and Laser Surgery (Wunsch & Matuschka, 2014 — PMID: 24286286) found that subjects treated with red light showed significantly improved skin complexion and measurably increased collagen density.`,
+    cta: "See how Deep-Cell Light Activation™ works — Try LuxeBeam™ risk-free for 60 days",
+  },
+  {
+    heading: "Reason #2: It Restores Firmness That No Topical Can (Because It Goes 10x Deeper)",
+    body: `You know the feeling. Your jawline looks softer than it used to. Your cheeks don't have that same lift. Your skin doesn't "snap back" the way it did even five years ago.
+
+That loss of firmness comes from two things: declining collagen AND declining elastin. Elastin is the protein that gives skin its bounce — and like collagen, it's produced deep in the dermis by fibroblast cells that topical products simply cannot reach.
+
+Near-infrared light at 830-850nm penetrates even deeper than red light — up to 10mm into tissue. At that depth, it reaches not just fibroblasts but the surrounding cellular environment, promoting tissue repair and reducing inflammatory processes.
+
+Avci et al. (2013 — PMID: 23508813) confirmed that low-level light therapy significantly increases collagen and elastin formation while reducing degradation enzymes (MMPs).`,
+    cta: "Restore firmness at the cellular level — Get the LuxeBeam™ for $186.75 with code SECRET25",
+  },
+  {
+    heading: "Reason #3: It Brings Back the \"Lit-From-Within\" Glow That Dull Skin Has Lost",
+    body: `There's a word women use when their skin is working: glow.
+
+Not shimmer. Not highlight. Glow — that alive, hydrated, I-just-walked-out-of-a-facial radiance that no highlighter can fake.
+
+Dull skin isn't just an aesthetic issue. It's a circulation issue. As we age, blood flow to the dermis decreases. Fewer nutrients reach the skin cells. Waste products build up.
+
+Red light at 630-660nm has been shown to increase microcirculation in treated tissue. More blood flow means more oxygen and nutrients reaching your skin cells.
+
+Women who use red light therapy consistently describe the effect: "My skin looks like I just walked out of a facial."`,
+    cta: "Get your glow back — Start your 10-minute LuxeBeam™ routine today",
+  },
+  {
+    heading: "Reason #4: It Evens Out Skin Tone Without Harsh Chemicals",
+    body: `If you've battled uneven tone — sun spots, redness, post-inflammatory marks — you've probably tried chemical exfoliants, prescription retinoids, or brightening serums with varying results and irritation.
+
+Red and near-infrared light therapy offers a different path. By stimulating cellular turnover and reducing inflammation at the dermal level, it supports the skin's natural process of evening itself out — without the peeling, dryness, and sensitivity.
+
+The LuxeBeam™ delivers both red (630-660nm) for surface-level tone improvement AND near-infrared (830-850nm) for deeper tissue repair — addressing uneven tone at multiple layers simultaneously.`,
+    cta: "Even your tone naturally — Try LuxeBeam™ risk-free for 60 days",
+  },
+  {
+    heading: "Reason #5: It's Gentle Enough for Sensitive Skin (And It's Actually Relaxing)",
+    body: `If you've ever had a retinol purge, a vitamin C serum sting, or a chemical peel that left your face red for three days, you understand the sensitive skin tax.
+
+Red light therapy is non-ablative, non-thermal at proper power densities, and non-chemical. There's nothing to react to because nothing is being applied to your skin.
+
+In fact, red light therapy is used clinically to reduce skin inflammation and accelerate barrier recovery. It's gentle enough for rosacea-prone skin.
+
+The LuxeBeam™ is wireless, weighs under 200g, and uses soft medical-grade silicone that doesn't leave pressure marks. 10 minutes. Auto-shutoff. No stinging, no peeling, no downtime.`,
+    cta: "Gentle. Effective. 10 minutes. Get your LuxeBeam™ for $186.75 (code: SECRET25)",
+  },
+];
+
+export const DISCLAIMER = "Individual results may vary. LuxeBeam™ is a cosmetic wellness device, not a medical device. It is not intended to diagnose, treat, cure, or prevent any disease. Consult your dermatologist before use if you have a photosensitive condition.";
